@@ -25,7 +25,7 @@ function addToTheList(thingToAdd) {
 
     // add thingToAdd on webpage
     var newListItem = document.createElement("li");
-    newListItem.innerHTML = [myList.length - 1];
+    newListItem.innerHTML = myList[myList.length - 1];
     myListArea.appendChild(newListItem);
 
 }
@@ -41,8 +41,10 @@ function printView() {
     formArea.style.display = "none";
     listPage.className = "print";
     myListArea.innerHTML = "";
+    myList.sort();
 
     for (var i = 0; i < myList.length; i++) {
         wishList.innerHTML += "<li>" + myList[i] + "</li>";
     }
+    window.print();
 }
