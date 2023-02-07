@@ -2,108 +2,261 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-        /* Remove the navbar's default margin-bottom and rounded borders */
-        
-        .navbar {
-            margin-bottom: 0;
-            border-radius: 0;
-        }
-        /* Add a gray background color and some padding to the footer */
-        
-        footer {
-            background-color: #f2f2f2;
-            padding: 25px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+
+    <title>Nkululeko Rwaxa</title>
+
 </head>
 
 <body>
-
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-                <a class="navbar-brand" href="#">Portfolio</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-            </div>
-        </div>
+    <!-- Navbar -->
+    <nav>
+        <h1>Portfolio</h1>
+        <ul class="nav">
+            <li><a class="nav-link" href="#aboutMe">About Me</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#contactMe">Contact Me</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
     </nav>
 
-    <div class="jumbotron">
-        <div class="container text-center">
-            <h1>My Portfolio</h1>
-            <p>Some text that represents "Me"...</p>
+    <!-- face -->
+    <section class="face" id="face">
+        <div class="face-content">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two">I am Nkululeko</div>
+                <div class="text-three">Aspiring software developer</div>
+                <div class="text-four">From Mfuleni, Cape Town</div>
+            </div>
+
+            <div class="buttons">
+                <a href="#schools"><button type="button" class="button1">Some school work...</button></a>
+                <a href="#projects"><button type="button" class="button2">Some school projects...</button></a>
+                <a href="#"><button type="button" class="button3">Some advanced javascript...</button></a>
+            </div>
         </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="aboutMe" id="aboutMe">
+        <h2>About Me</h2>
+        <p>
+            I am an aspiring software developer. I obtained my strong programming skills from <a href="http://codecollege.co.za/" target="_blank">CodeCollege</a> through their intensive and impressive coding Bootcamp.
+
+        </p>
+        <p>
+            I consider myself a highly capable individual with an array of skills to support this statement.
+        </p>
+        <p>
+            Complementing my diverse skill set, I have developed an excellent understanding of a wide range of programming languages and tools and have demonstrated this capability throughout my ongoing Bootcamp with <a href="http://codecollege.co.za/"
+                target="_blank">CodeCollege</a>.
+        </p>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="icons/html5.svg" alt="HTML5 logo" loading="lazy" class="icon icon-card">
+                <img src="icons/css.svg" alt="CSS logo " loading="lazy" class="icon icon-card">
+                <img src="icons/javascript.svg" alt="JS logo" loading="lazy" class="icon icon-card">
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="icons/c-sharp.svg" alt="C# logo" loading="lazy" class="icon icon-card">
+                <img src="icons/java.svg" alt="Java logo " loading="lazy" class="icon icon-card">
+                <img src="icons/mysql.svg" alt="MySql logo" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- School work -->
+    <section class="schools" id="schools">
+        <h2 class="schools-title">Some of my School Work</h2>
+        <div class="schools-container">
+            <div class="school-container school-card">
+                <a href="Chapter 5 JavaScript & HTML/chapter5.html" target="_blank" class="school-link">
+                    <img src="Chapter 5 JavaScript & HTML/chapter5.png" alt="HTML & JavaScript Page" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">Change Array Items</h3>
+                <p class="school-details">
+                    Use JavaScript to work with and change the HTML inside of a web page.
+                </p>
+
+            </div>
+
+            <div class="school-container school-card">
+                <a href="Chapter 7 Animated Robot/chapter7.html" target="_blank" class="school-link">
+                    <img src="Chapter 7 Animated Robot/chapter7.png" alt="Animated Robot Page" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">Animated Robot</h3>
+                <p class="school-details">
+                    Design a robot with CSS and animate eyes and right arm using JavaScript code.
+                </p>
+
+            </div>
+
+            <div class="school-container school-card">
+                <a href="Chapter 9 Super Calculator/chapter9.html" target="_blank" class="school-link">
+                    <img src="Chapter 9 Super Calculator/chapter9.png" alt="JS Super Calculator" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">JS Super-Calculator</h3>
+                <p class="school-details">
+                    Explore JS operators. This program lets you choose an operator and see the results.
+                </p>
+
+            </div>
+
+            <div class="school-container school-card">
+                <a href="Chapter 10 JavaScript Word Game/chapter10.html" target="_blank" class="school-link">
+                    <img src="Chapter 10 JavaScript Word Game/chapter10.png" alt="Word Game Page" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">JS Word Game</h3>
+                <p class="school-details">
+                    Explore string concatenation operator. The structure is done by HTML, CSS, and JavaScript.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="schools-container">
+            <div class="school-container school-card">
+                <a href="Chapter 19 Lemonade Stand/chapter19.html" target="_blank" class="school-link">
+                    <img src="Chapter 19 Lemonade Stand/chapter19.png" alt="Lemonade Stand Page" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">Lemonade Stand</h3>
+                <p class="school-details">
+                    Use weather forecast application for your lemonade stand to have advantage.
+                </p>
+
+            </div>
+
+            <div class="school-container school-card">
+                <a href="Chapter 18 While-Loops/chapter18.html" target="_blank" class="school-link">
+                    <img src="Chapter 18 While-Loops/chapter18.png" alt="Lunch Game Page" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">Lunch Game</h3>
+                <p class="school-details">
+                    Explore while-loops for JavaScript for a game that will keep buying sandwiches until the money is over.
+                </p>
+
+            </div>
+
+            <div class="school-container school-card">
+                <a href="Chapter 16 Own Advanture/chapter16.html" target="_blank" class="school-link">
+                    <img src="Chapter 16 Own Advanture/chapter16.png" alt="Own Advanture Page" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">Own Advanture</h3>
+                <p class="school-details">
+                    Explore JavaScript's branching technique using if...else or switch statements.
+                </p>
+
+            </div>
+
+            <div class="school-container school-card">
+                <a href="Chapter 14 If-Else/chapter14.html" target="_blank" class="school-link">
+                    <img src="Chapter 14 If-ELse/chapter14.png" alt="Pizzeria Page" loading="lazy" class="school-pic"></a>
+                <h3 class="school-title">JS Pizzeria</h3>
+                <p class="school-details">
+                    Create and navigate choices in a JavaScript application using if...else statements.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- School projects -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my school projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <a href="Projects/Alarm Clock/alarm.html" target="_blank" class="project-link">
+                    <img src="Projects/Alarm Clock/alarm-clock.svg" alt="Alarm Clock" loading="lazy" class="project-pic">
+                </a>
+                <h3 class="project-title">Alarm Clock</h3>
+                <p>
+                    An alarm clock web application.
+                </p>
+            </div>
+            <div class="project-container project-card">
+                <a href="Projects/Guessing Game/GuessingGame.html" target="_blank" class="project-link">
+                    <img src="Projects/Guessing Game/guessing-game.svg" alt="Guessing Game" loading="lazy" class="project-pic">
+                </a>
+                <h3 class="project-title">Guessing Game</h3>
+                <p>
+                    Player has to guess a number 1-10.
+                </p>
+            </div>
+            <div class="project-container project-card">
+                <a href="Projects/Shopping Cart/shopStart.html" target="_blank" class="project-link">
+                    <img src="Projects/Shopping Cart/shopping-cart.svg" alt="Shopping Cart" loading="lazy" class="project-pic">
+                </a>
+                <h3 class="project-title">Shopping Cart</h3>
+                <p>
+                    Add or remove items to a cart.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advanced work -->
+    <section class="advanced" id="advanced"></section>
+
+    <!-- Contact me -->
+    <section class="contactMe" id="contactMe">
+        <h2>Contact Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xknaodbw" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input class="input-field" id="name" type="text" name="sender-name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input class="input-field" id="email" type="email" name="sender-email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter your message" name="message" class="input-field" required></textarea>
+                    </div>
+
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--social media accounts-->
+    <div class="socials">
+
+        <a href="https://github.com/NkululekoRwaxa/Bootcamp" target="_blank"><img src="icons/github.gif" alt="Github" tooltip="Github" class="socicon" /></a>
     </div>
 
-    <div class="container-fluid bg-3 text-center">
-        <h3>Some of my Work</h3><br>
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div>
-    </div><br>
+    <!--scroll-up arrow-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/up-arrow.gif" class="socicon up-arrow" alt="scroll-up"/>
+    </i>
 
-    <div class="container-fluid bg-3 text-center">
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div>
-    </div><br><br>
-
-    <footer class="container-fluid text-center">
-        <p>Footer Text</p>
+    <!--footer-->
+    <footer>
+        <p class="copy">&copy; Copyright <span id="year"></span></p>
     </footer>
 
+    <!-- JS -->
+    <script src="js/index.js"></script>
 </body>
 
 </html>
