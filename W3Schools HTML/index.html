@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        tr {
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:hover {
+            background-color: #d6eeee;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+    <title>HTML with W3School</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+</head>
+
+<body>
+    <h1>This is a heading.</h1>
+    <p>This is a paragraph.</p>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: aquamarine;">
+            <col style="background-color: chartreuse;">
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Nkulu</td>
+            <td>Rwaxa</td>
+            <td>80</td>
+        </tr>
+
+        <tr>
+            <td>Nono</td>
+            <td>Vava</td>
+            <td>29</td>
+        </tr>
+
+        <tr>
+            <td>Joj</td>
+            <td>Jojina</td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>James</td>
+            <td>Joj</td>
+            <td>2</td>
+        </tr>
+        <caption>This is a table caption.</caption>
+    </table>
+    <table class="w3-table w3-bordered w3-striped">
+        <caption>Another table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nkulu</td>
+                <td>Rwaxa</td>
+            </tr>
+            <tr>
+                <td>Rwaxa</td>
+                <td>Nkulu</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>Sum</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        <h2>An unordered list.</h2>
+        <ul>
+            <li>Food</li>
+            <li>Coffee</li>
+            <li>Tea</li>
+        </ul>
+        <h2>Ordered list.</h2>
+        <ol type="" start="0">
+            <li>Item</li>
+            <li>Tea</li>
+            <li>Other</li>
+        </ol>
+        <h2>Description list.</h2>
+        <dl>
+            <td>Item</td>
+            <dd>-Description</dd>
+            <td>Another item</td>
+            <dd>-Another description</dd>
+        </dl>
+    </p>
+    <h2>HTML JavaScript</h2>
+    <p id="demo"></p>
+    <p id="hello"></p>
+    <p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me to display time.</button>
+        <button type="button" onclick="document.getElementById('hello').innerHTML='Hello JavaScript!'">Say hello JS!</button>
+    </p>
+
+    <!--iframe src="demo_iframe.htm" name="iframe_a" height="300" width="100%" title="Iframe Example"></iframe>
+    <p><a href="https://www.mandela.ac.za/" target="iframe_a">W3Schools.com</a></p-->
+</body>
+
+</html>
