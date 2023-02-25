@@ -1,0 +1,52 @@
+#car {
+    font-family: Arial;
+}
+
+#top {
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    width: 20%;
+    height: 20%;
+    background-color: gray;
+    border-radius: 60%;
+    border: 1px solid black;
+}
+
+#body {
+    position: absolute;
+    top: 100px;
+    width: 30%;
+    height: 15%;
+    background-color: #000000;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px 80px 15px 15px;
+}
+
+#backwheel {
+    position: absolute;
+    left: 3%;
+    top: 180px;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#frontwheel {
+    position: absolute;
+    left: 25%;
+    top: 180px;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#modelyear,
+#pricetag {
+    color: red;
+}
