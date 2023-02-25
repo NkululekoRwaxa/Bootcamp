@@ -1,0 +1,6 @@
+town|county|supervisor|start_date|salary|benefits
+Anytown|Some County|Jones||R27 000,00|
+Bumblyburg|Some County|Baker||R24 999,00|
+Moetown|Some County|Smith||R32 100,00|
+Bigville|Some County|Kao||R31 500,00|
+New Brillig|Some County|Carroll||R72 690,00|

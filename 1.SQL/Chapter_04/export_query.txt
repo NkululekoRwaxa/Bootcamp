@@ -1,0 +1,7 @@
+first_name,last_name,hire_date
+Samuel,Cole,2005-08-01 00:00:00
+Samantha,Bush,2011-10-30 00:00:00
+Betty,Diaz,2005-08-30 00:00:00
+Samuel,Cole,2005-08-01 00:00:00
+Samantha,Bush,2011-10-30 00:00:00
+Betty,Diaz,2005-08-30 00:00:00
