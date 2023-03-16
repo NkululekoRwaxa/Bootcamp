@@ -1,0 +1,19 @@
+city,province
+Pretoria,Gauteng
+Johannesburg,Gauteng
+Rustenburg,North West
+Bloemhof,North West
+Polokwane,Limpopo
+Mokopane,Limpopo
+Nelspruit,Mpumalanga
+Hazyview,Mpumalanga
+Ulundi,KwaZulu Natal
+Durban,KwaZulu Natal
+East London,Eastern Cape
+Gqeberha,Eastern Cape
+Cape Town,Western Cape
+West Coast,Western Cape
+Springbok,Northern Cape 
+Upington,Northern Cape
+Bloemfontein,Free State
+Winburg,Free State

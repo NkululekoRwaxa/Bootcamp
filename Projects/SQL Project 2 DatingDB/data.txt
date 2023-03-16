@@ -1,0 +1,8 @@
+last_name, first_name, phone, email, gender, birthday, profession, city, province, status, interests, seeking
+Tom, Smith,0780615009,tom@gmail.com,F,1960/08/14,Doctor,Johannesburg,Gauteng,Single,hiking reading biking,single male same profession over 50
+Gugu,Ndaba,0780615012,gugu@gmail.com,F,1999/07/03,Teacher,Idutywa,Eastern Cape,Divorced,hiking cooking running,single male employed over 25
+Jo,Nala,0780615078,jo@gmail.com,M,1991/03/07,Software developer,Belfast,Mpumalanga,Single,hiking diving biking,single female same profession over 25
+Mary,Smith,0610615009,mary@gmail.com,F,1981/09/09,Student,Brits,North West,Divorced,studying reading cycling,single male under 50
+Kyle,Koo,0710615009,kyle@gmail.com,M,1960/11/03,Doctor,Pietersburg,Polokwane,Single,art reading cycling,single female same profession over 50
+Sizwe,Nchabe,0840615099,sizwe@gmail.com,M,1985/06/11,Software developer,Pretoria,Gauteng,Single,hiking reading biking,single female same profession over 25
+Liz,Sun,0830777009,liz@gmail.com,F,1985/07/05,Teacher,Durban,Kwa Zulu Natal,Single,walkimg reading cooking,single male
