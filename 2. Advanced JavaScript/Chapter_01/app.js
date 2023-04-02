@@ -1,0 +1,1 @@
+alert("I am a js file in separate file.");
