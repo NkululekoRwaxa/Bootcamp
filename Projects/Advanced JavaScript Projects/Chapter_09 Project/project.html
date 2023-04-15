@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chapter 9 Project</title>
+</head>
+
+<body>
+    <div class="output">
+        <h1>Hello</h1>
+        <div>Test</div>
+
+        <ul>
+            <li id="one">One</li>
+            <li class="red">Two</li>
+        </ul>
+
+        <div>Test</div>
+    </div>
+
+    <script>
+        // 1. Select the element with the class output
+
+        const elems = document.getElementsByClassName("output");
+        //console.log(elems[0]);
+
+        // 2.Create another JavaScript object called mainList and select only the ul tag that is within the output element. Update the ID of that ul tag to mainList.
+
+        const mainList = elems[0].querySelector("ul");
+        mainList.setAttribute("id", "mainList");
+        //console.log(mainList);
+
+        // 3. Search for the tagName of each div, and output them into the console as an array
+
+        const divs = document.getElementsByTagName("div");
+        //console.log(divs);
+
+        // 4. Using a for loop, set the ID of each of the div tags to id with a numeric value of the order they appear within output. Still within the loop, alternate the color of the contents of each element in output to be red or blue.
+
+        for (let i = 0; i < divs.length; i++) {
+            divs[i].setAttribute("id", i);
+            document.getElementById(i).style.color = (i % 2 === 0) ? "red" : "blue";
+            //console.log(divs[i]);
+        }
+
+        //console.log(elems[0]);
+    </script>
+</body>
+
+</html>
