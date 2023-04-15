@@ -1,0 +1,24 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <title>Exercise 9.3</title>
+</head>
+
+<body>
+    <div class="output"></div>
+
+    <script>
+        document.body.style.backgroundColor = "red";
+
+        const elems = document.getElementsByClassName("output");
+        elems[0].textContent = "I am a text";
+
+        const list = elems[0].classList;
+        list.add("red");
+
+        elems[0].setAttribute("id", "tester");
+    </script>
+</body>
+
+</html>
