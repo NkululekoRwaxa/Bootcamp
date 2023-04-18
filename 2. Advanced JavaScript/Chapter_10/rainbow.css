@@ -1,0 +1,19 @@
+div {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+.square.blue {
+    background-color: blue;
+}
