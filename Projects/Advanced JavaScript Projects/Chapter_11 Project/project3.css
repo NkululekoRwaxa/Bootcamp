@@ -1,0 +1,13 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.output {
+    background-color: #ddd;
+}
+
+.out {
+    display: none;
+}
