@@ -1,0 +1,12 @@
+.box {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#dragme {
+    background-color: cyan;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To Page</title>
+</head>
+
+<body>
+    <div id="div">Welcome, <span id="name"></span> <span id="surname"></span></div>
+
+    <script>
+        let query = window.location.search;
+        let params = new URLSearchParams(query);
+        let name = params.get("name");
+        let surname = params.get("surname");
+
+        document.getElementById("name").innerHTML = name;
+        document.getElementById("surname").innerHTML = surname;
+
+        // console.log(query);
+        // console.log(params);
+        // console.log(name);
+        // console.log(surname);
+    </script>
+</body>
+
+</html>
