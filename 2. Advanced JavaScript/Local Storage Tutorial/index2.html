@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local Storage: Project</title>
+    </head>
+    <body>
+        <div id="div">
+            <!-- Object items -->
+            <form id="form">
+                <h1>Local Storage: Project</h1>
+                <label for="brand" >Car</label>
+                <input type="text" id="brand" placeholder="Car brand" required autofocus><br>
+                <label for="price" >Price</label>
+                <input type="text" id="price" placeholder="Car price" required><br>
+                <label for="key" >Key</label>
+                <input type="text" id="key" placeholder="Key" required><br>
+                <button type="submit">Store Records</button>
+            </form><br>
+
+            <!-- Get Object Items based on Object key -->
+            <label for="getKey" >Enter Key to retrieve item</label>
+            <input type="text" id="getKey" placeholder="Enter key" required><br>
+            <button id="getButton">Retrieve records</button>
+            <br>
+
+            <!-- Display GET results -->
+            <div id="retrieve"></div><br>
+
+            <!-- Delete -->
+            <label for="removeKey" >Enter Key to delete item</label>
+            <input type="text" id="removeKey" placeholder="Enter key" required><br>
+            <button id="removeButton">Remove record</button>
+            <br>
+
+            <!-- Clear local storage -->
+            <button id="clearButton">Clear all records</button>
+      </div>
+        <script src="index2.js"></script>
+    </body>
+</html>
